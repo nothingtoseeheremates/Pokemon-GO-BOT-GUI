@@ -1,0 +1,12 @@
+-- This is a simple tutorial on how to use the accounts.txt
+-- For each information you put here you must add | at the end for example login|pass
+-- Each line below refers to an account information:
+--
+-- Login if you are using google auth method put "Google" (Without quotes), if PTC just put your login
+-- Passoword if you are using google auth method put your refresh code, if PTC just put your password
+-- TODO MORE INFO
+
+--Examples
+-- Google`s Google|1/7nHBghtDnb9jixDk6i18745HcFCAEvDDHDz0bze2IuyY
+-- PTC`s mariogk|mypassword
+

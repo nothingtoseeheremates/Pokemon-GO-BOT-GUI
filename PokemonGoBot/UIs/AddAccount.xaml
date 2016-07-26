@@ -1,0 +1,51 @@
+﻿<controls:MetroWindow x:Class="PokemonGoBot.UIs.AddAccount"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:local="clr-namespace:PokemonGoBot"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      mc:Ignorable="d"
+                      Title="Add Account" Height="512" Width="274" Background="#FF252525" Topmost="True"
+                      WindowStartupLocation="CenterScreen" BorderBrush="#FF574EB9" NonActiveBorderBrush="#FF574EB9"
+                      NonActiveGlowBrush="#FF574EB9" NonActiveWindowTitleBrush="#FF574EB9" GlowBrush="#FF574EB9" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label" Content="Login:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" />
+        <Label x:Name="label1" Content="Password:" HorizontalAlignment="Left" Margin="10,50,0,0"
+               VerticalAlignment="Top" />
+        <Label x:Name="label2" Content="Auth Method:" HorizontalAlignment="Left" Margin="10,82,0,0"
+               VerticalAlignment="Top" />
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="98,81,0,0" VerticalAlignment="Top" Width="157"
+                  SelectedIndex="0">
+            <ComboBoxItem Content="Pokemon Trainer Club" />
+            <ComboBoxItem Content="Google" />
+        </ComboBox>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="23" Margin="98,19,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="157" />
+        <TextBox x:Name="passwordBox" HorizontalAlignment="Left" Height="23" Margin="98,50,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="157" ToolTip="If you are using google auth method put your refresh token in here." />
+        <Button x:Name="addAccountButton" Content="Add Account" HorizontalAlignment="Left" Margin="11,420,0,0"
+                VerticalAlignment="Top" Width="245" Height="25" Click="addAccountButton_Click" />
+        <Label x:Name="label2_Copy" Content="Longitude:" HorizontalAlignment="Left" Margin="10,143,0,0"
+            VerticalAlignment="Top" />
+        <Label x:Name="label2_Copy1" Content="Latitude:" HorizontalAlignment="Left" Margin="10,113,0,0"
+            VerticalAlignment="Top" />
+        <Label x:Name="label2_Copy2" Content="Altitude:" HorizontalAlignment="Left" Margin="10,174,0,0"
+            VerticalAlignment="Top" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="98,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="98,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="98,174,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="157" ToolTip="Default value is 10."/>
+        <CheckBox x:Name="checkBox" Content="Fast Mode" HorizontalAlignment="Right" Margin="0,247,48,0" VerticalAlignment="Top" ToolTip="It will walk at a blazing fast speed,"/>
+        <CheckBox x:Name="checkBox1" Content="Catch Pokemons" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="checkBox2" Content="Spin PokeStops" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="checkBox3" Content="Transfer Pokemons" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Height="25" IsEnabled="False"/>
+        <Label x:Name="label2_Copy3" Content="Max Dist:" HorizontalAlignment="Left" Margin="12,205,0,0"
+            VerticalAlignment="Top" />
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" Margin="97,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Text="2000" ToolTip="Default is 2000."/>
+        <Button x:Name="button" Content="Select" HorizontalAlignment="Left" Margin="139,305,0,0" VerticalAlignment="Top" Width="116" IsEnabled="False"/>
+        <CheckBox x:Name="checkBox3_Copy" Content="Evolve Pokemons" HorizontalAlignment="Left" Margin="10,335,0,0" VerticalAlignment="Top" Height="25" IsEnabled="False"/>
+        <Button x:Name="button_Copy" Content="Select" HorizontalAlignment="Left" Margin="139,335,0,0" VerticalAlignment="Top" Width="116" IsEnabled="False"/>
+        <CheckBox x:Name="checkBox_Copy" Content="Use Lucky Eggs" HorizontalAlignment="Right" Margin="0,275,22,0" VerticalAlignment="Top" ToolTip="WIP" IsEnabled="False"/>
+        <CheckBox x:Name="checkBox1_Copy" Content="Auto Incubate" HorizontalAlignment="Left" Margin="11,365,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+    </Grid>
+</controls:MetroWindow>
