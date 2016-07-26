@@ -1,0 +1,6 @@
+[submodule "Pokemon-Go-Rocket-API"]
+	path = Pokemon-Go-Rocket-API
+	url = https://github.com/FeroxRev/Pokemon-Go-Rocket-API.git
+[submodule "NecroBot"]
+	path = NecroBot
+	url = https://github.com/NecronomiconCoding/NecroBot.git
