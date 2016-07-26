@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGoBot", "PokemonGoBot\PokemonGoBot.csproj", "{331B2A3A-1042-4810-A4D5-306044A112F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGoBot.GUI", "PokemonGoBot\PokemonGoBot.GUI.csproj", "{331B2A3A-1042-4810-A4D5-306044A112F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoGo.NecroBot.Logic", "NecroBot\PoGo.NecroBot.Logic\PoGo.NecroBot.Logic.csproj", "{0739E40D-C589-4AEB-93E5-EE8CD6773C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGo.RocketAPI", "NecroBot\FeroxRev\PokemonGo.RocketAPI\PokemonGo.RocketAPI.csproj", "{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{331B2A3A-1042-4810-A4D5-306044A112F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331B2A3A-1042-4810-A4D5-306044A112F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331B2A3A-1042-4810-A4D5-306044A112F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0739E40D-C589-4AEB-93E5-EE8CD6773C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0739E40D-C589-4AEB-93E5-EE8CD6773C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0739E40D-C589-4AEB-93E5-EE8CD6773C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0739E40D-C589-4AEB-93E5-EE8CD6773C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

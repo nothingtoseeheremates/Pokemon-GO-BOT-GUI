@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using PokemonGo.RocketAPI;
 using PokemonGo.RocketAPI.Enums;
-using PokemonGo.RocketAPI.GeneratedCode;
 
 namespace PokemonGoBot.Acc
 {
@@ -23,9 +22,5 @@ namespace PokemonGoBot.Acc
         public int DelayBetweenPokemonCatch { get; }
         public bool UsePokemonToNotCatchFilter { get; }
         public int KeepMinDuplicatePokemon { get; }
-        public ICollection<KeyValuePair<ItemId, int>> ItemRecycleFilter { get; }
-        public ICollection<PokemonId> PokemonsToEvolve { get; }
-        public ICollection<PokemonId> PokemonsNotToTransfer { get; }
-        public ICollection<PokemonId> PokemonsNotToCatch { get; }
     }
 }
